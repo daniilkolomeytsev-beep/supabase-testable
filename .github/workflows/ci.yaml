@@ -4,6 +4,9 @@ on:
   pull_request:
     branches:
       - '*'
+    types:
+      - opened
+      - synchronyze
   workflow_dispatch:
 
 jobs:
