@@ -6,7 +6,7 @@ on:
       - '*'
     types:
       - opened
-      - synchronyze
+      - synchronize
   workflow_dispatch:
 
 jobs:
